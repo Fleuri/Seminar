@@ -1,0 +1,83 @@
+% This file was created with JabRef 2.7b.
+% Encoding: UTF-8
+
+@ARTICLE{Azodolmolky,
+  author = {Azodolmolky, S. and Wieder, P. and Yahyapour, R.},
+  title = {Cloud computing networking: challenges and opportunities for innovations},
+  journal = {Communications Magazine, IEEE},
+  year = {2013},
+  volume = {51},
+  pages = {54-62},
+  number = {7},
+  month = {July},
+  doi = {10.1109/MCOM.2013.6553678},
+  issn = {0163-6804},
+  keywords = {cloud computing;IaaS facilities;cloud computing facilities;cloud computing
+	networking;compute resources on-demand provisioning;networking issues;networking
+	resource on-demand provisioning;pay-per-use business model;software-defined
+	networking proposals;storage resource on-demand provisioning;utility
+	computing;Cloud computing;Network topology;Servers;Switches;Virtual
+	private networks}
+}
+
+@BOOK{Frontiers,
+  title = {Frontiers in Massive Data Analysis},
+  publisher = {The National Academies Press},
+  year = {2013},
+  author = {National Research Council},
+  address = {Washington, DC},
+  isbn = {978-0-309-28778-4},
+  url = {http://www.nap.edu/catalog.php?record_id=18374}
+}
+
+@ARTICLE{Dean:2008:MSD:1327452.1327492,
+  author = {Dean, Jeffrey and Ghemawat, Sanjay},
+  title = {MapReduce: Simplified Data Processing on Large Clusters},
+  journal = {Commun. ACM},
+  year = {2008},
+  volume = {51},
+  pages = {107--113},
+  number = {1},
+  month = jan,
+  acmid = {1327492},
+  address = {New York, NY, USA},
+  doi = {10.1145/1327452.1327492},
+  issn = {0001-0782},
+  issue_date = {January 2008},
+  numpages = {7},
+  publisher = {ACM},
+  url = {http://doi.acm.org/10.1145/1327452.1327492}
+}
+
+@ARTICLE{Scheduling,
+  author = {Peng Qin and Bin Dai and Benxiong Huang and Guan Xu},
+  title = {Bandwidth-Aware Scheduling with SDN in Hadoop: A New Trend for Big
+	Data},
+  journal = {CoRR},
+  year = {2014},
+  volume = {abs/1403.2800},
+  pages = {1-8},
+  timestamp = {Thu, 02 Oct 2014 10:41:12 +0200},
+  url = {http://arxiv.org/abs/1403.2800}
+}
+
+@INPROCEEDINGS{Wang:2012:PYN:2342441.2342462,
+  author = {Wang, Guohui and Ng, T.S. Eugene and Shaikh, Anees},
+  title = {Programming Your Network at Run-time for Big Data Applications},
+  booktitle = {Proceedings of the First Workshop on Hot Topics in Software Defined
+	Networks},
+  year = {2012},
+  series = {HotSDN '12},
+  pages = {103--108},
+  address = {New York, NY, USA},
+  publisher = {ACM},
+  acmid = {2342462},
+  doi = {10.1145/2342441.2342462},
+  isbn = {978-1-4503-1477-0},
+  keywords = {big data applications, optical circuit switching, software defined
+	networking},
+  location = {Helsinki, Finland},
+  numpages = {6},
+  url = {http://doi.acm.org/10.1145/2342441.2342462}
+}
+
