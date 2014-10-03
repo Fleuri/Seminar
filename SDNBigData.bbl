@@ -1,0 +1,29 @@
+\begin{thebibliography}{1}
+
+\bibitem{ODL}
+Open daylight project.
+
+\bibitem{POX}
+Pox controller.
+
+\bibitem{Dean:2008:MSD:1327452.1327492}
+{\sc Dean, J., and Ghemawat, S.}
+\newblock Mapreduce: Simplified data processing on large clusters.
+\newblock {\em Commun. ACM 51}, 1 (Jan. 2008), 107--113.
+
+\bibitem{Ghemawat:2003:GFS:1165389.945450}
+{\sc Ghemawat, S., Gobioff, H., and Leung, S.-T.}
+\newblock The google file system.
+\newblock {\em SIGOPS Oper. Syst. Rev. 37}, 5 (Oct. 2003), 29--43.
+
+\bibitem{McKeown-CCR2008}
+{\sc McKeown, N., Anderson, T., Balakrishnan, H., Parulkar, G., Peterson, L.,
+  Rexford, J., Shenker, S., and Turner, J.}
+\newblock Openflow: enabling innovation in campus networks.
+\newblock {\em SIGCOMM Comput. Commun. Rev. 38}, 2 (mar 2008), 69--74.
+
+\bibitem{Hadoop}
+{\sc "{The Apache Software Foundation}"}.
+\newblock Hadoop.
+
+\end{thebibliography}
