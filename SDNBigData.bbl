@@ -1,11 +1,5 @@
 \begin{thebibliography}{1}
 
-\bibitem{ODL}
-Open daylight project.
-
-\bibitem{POX}
-Pox controller.
-
 \bibitem{Dean:2008:MSD:1327452.1327492}
 {\sc Dean, J., and Ghemawat, S.}
 \newblock Mapreduce: Simplified data processing on large clusters.
@@ -16,6 +10,11 @@ Pox controller.
 \newblock The google file system.
 \newblock {\em SIGOPS Oper. Syst. Rev. 37}, 5 (Oct. 2003), 29--43.
 
+\bibitem{NOX}
+{\sc McCauley, M.}
+\newblock Nox controller.
+\newblock \url{http://www.noxrepo.org/nox/about-nox/}.
+
 \bibitem{McKeown-CCR2008}
 {\sc McKeown, N., Anderson, T., Balakrishnan, H., Parulkar, G., Peterson, L.,
   Rexford, J., Shenker, S., and Turner, J.}
@@ -23,7 +22,18 @@ Pox controller.
 \newblock {\em SIGCOMM Comput. Commun. Rev. 38}, 2 (mar 2008), 69--74.
 
 \bibitem{Hadoop}
-{\sc "{The Apache Software Foundation}"}.
+{\sc {The Apache Software Foundation}}.
 \newblock Hadoop.
+\newblock \url{http://hadoop.apache.org/}.
+
+\bibitem{Spark}
+{\sc {The Apache Software Foundation}}.
+\newblock Spark.
+\newblock \url{http://spark.apache.org/}, 2014.
+
+\bibitem{ODL}
+{\sc {The Open Daylight Project}}.
+\newblock Open daylight project.
+\newblock \url{http://www.opendaylight.org/}.
 
 \end{thebibliography}
