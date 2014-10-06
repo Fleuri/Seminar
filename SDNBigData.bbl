@@ -5,6 +5,11 @@
 \newblock Mapreduce: Simplified data processing on large clusters.
 \newblock {\em Commun. ACM 51}, 1 (Jan. 2008), 107--113.
 
+\bibitem{Feamster:2013:RS:2559899.2560327}
+{\sc Feamster, N., Rexford, J., and Zegura, E.}
+\newblock The road to sdn.
+\newblock {\em Queue 11}, 12 (Dec. 2013), 20:20--20:40.
+
 \bibitem{Ghemawat:2003:GFS:1165389.945450}
 {\sc Ghemawat, S., Gobioff, H., and Leung, S.-T.}
 \newblock The google file system.
@@ -20,6 +25,12 @@
   Rexford, J., Shenker, S., and Turner, J.}
 \newblock Openflow: enabling innovation in campus networks.
 \newblock {\em SIGCOMM Comput. Commun. Rev. 38}, 2 (mar 2008), 69--74.
+
+\bibitem{robert2012system}
+{\sc Robert, B., and Carman, D.}
+\newblock System for regulating access to and distributing content in a
+  network, feb 2012.
+\newblock US Patent 8,122,128.
 
 \bibitem{Hadoop}
 {\sc {The Apache Software Foundation}}.
