@@ -1,4 +1,15 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{Azodolmolky}
+{\sc Azodolmolky, S., Wieder, P., and Yahyapour, R.}
+\newblock Cloud computing networking: challenges and opportunities for
+  innovations.
+\newblock {\em Communications Magazine, IEEE 51}, 7 (July 2013), 54--62.
+
+\bibitem{Frontiers}
+{\sc Council, N.~R.}
+\newblock {\em Frontiers in Massive Data Analysis}.
+\newblock The National Academies Press, Washington, DC, 2013.
 
 \bibitem{Dean:2008:MSD:1327452.1327492}
 {\sc Dean, J., and Ghemawat, S.}
@@ -15,6 +26,13 @@
 \newblock The google file system.
 \newblock {\em SIGOPS Oper. Syst. Rev. 37}, 5 (Oct. 2003), 29--43.
 
+\bibitem{Kreutz13}
+{\sc Kreutz, D., Ramos, F.~M., and Verissimo, P.}
+\newblock Towards secure and dependable software-defined networks.
+\newblock In {\em Proceedings of the Second ACM SIGCOMM Workshop on Hot Topics
+  in Software Defined Networking\/} (New York, NY, USA, 2013), HotSDN '13, ACM,
+  pp.~55--60.
+
 \bibitem{NOX}
 {\sc McCauley, M.}
 \newblock Nox controller.
@@ -25,6 +43,12 @@
   Rexford, J., Shenker, S., and Turner, J.}
 \newblock Openflow: enabling innovation in campus networks.
 \newblock {\em SIGCOMM Comput. Commun. Rev. 38}, 2 (mar 2008), 69--74.
+
+\bibitem{Scheduling}
+{\sc Qin, P., Dai, B., Huang, B., and Xu, G.}
+\newblock Bandwidth-aware scheduling with sdn in hadoop: A new trend for big
+  data.
+\newblock {\em CoRR abs/1403.2800\/} (2014), 1--8.
 
 \bibitem{robert2012system}
 {\sc Robert, B., and Carman, D.}
@@ -46,5 +70,11 @@
 {\sc {The Open Daylight Project}}.
 \newblock Open daylight project.
 \newblock \url{http://www.opendaylight.org/}.
+
+\bibitem{Wang:2012:PYN:2342441.2342462}
+{\sc Wang, G., Ng, T.~E., and Shaikh, A.}
+\newblock Programming your network at run-time for big data applications.
+\newblock In {\em Proceedings of the First Workshop on Hot Topics in Software
+  Defined Networks\/} (New York, NY, USA, 2012), HotSDN '12, ACM, pp.~103--108.
 
 \end{thebibliography}
