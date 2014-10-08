@@ -78,8 +78,7 @@ When it comes combining SDN and Big Data, the research and applications are not 
 
 \section{Software-defined Networking}
 
-Software-defined Networking is a networking paradigm and an architectural design. According to Feamster et al. the major design choices of SDN are the decoupling of the network control plane and data plane and centralisation of control so that a single program monitors and modifies all network elements \cite{Feamster:2013:RS:2559899.2560327}. In essence this adds a previously non-existent abstraction level in-between the physical network and network applications freeing the network programmer from having to concern him or herself with the actual logical implementations of network devices. This along with the Network Functions Virtualization allows for configuring networks and network functions easily with well defined APIs such as OpenFlow \cite{McKeown-CCR2008}. For example with Openflow switches, both physical and virtual, it is possible to use commodity hardware and servers for middlebox functions. Figure ~\ref{fig:architecture} shows the typical SDN controller architecture with OpenFlow enabled switches and the interfaces between the data plane and control plane, the South-bound interfaces, as well as the North-bound interface, usually an API, between the controller and network applications.
- 
+Software-defined Networking is a networking paradigm and an architectural design. According to Feamster et al. the major design choices of SDN are the decoupling of the network control plane and data plane and centralisation of control so that a single program monitors and modifies all network elements \cite{Feamster:2013:RS:2559899.2560327}. In essence this adds a previously non-existent abstraction level in-between the physical network and network applications freeing the network programmer from having to concern him or herself with the actual logical implementations of network devices. This along with the Network Functions Virtualization allows for configuring networks and network functions easily with well defined APIs such as OpenFlow \cite{McKeown-CCR2008}. For example with Openflow switches, both physical and virtual, it is possible to use commodity hardware and servers for middlebox functions. Figure ~\ref{fig:architecture} shows the typical SDN controller architecture with OpenFlow enabled switches and the interfaces between the data plane and control plane, the South-bound interfaces, as well as the North-bound interface, usually an API, between the controller and network applications. Virtualization adds to SDN's benefits: Multiple networks can co-exist on the same hardware and to have their topology decoupled from the physical network topology. \cite{Azodolmolky} The physical network resource usage is also enhanced through network resource pooling. 
 
 \begin{figure}[ht!]
 \centering
@@ -93,6 +92,8 @@ Software-defined Networking is a networking paradigm and an architectural design
 
 
 \section{Big data challenges}
+
+
 
 Massive Data challenges \cite{Frontiers} \cite{Azodolmolky}
 Scaling of resources.
