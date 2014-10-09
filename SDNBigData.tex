@@ -93,6 +93,15 @@ Software-defined Networking is a networking paradigm and an architectural design
 
 \section{Big data challenges}
 
+In their article \textit{Cloud Computing Networking: Challenges and Opportunities for Innovations} \cite{Azodolmolky} Siamak Azodolmolky et al. investigate the known challenges Cloud Computing faces. While the challenges are discussed within a purview of general cloud computing, many of them apply directly or partly to Big Data as well.
+
+Application performance is always an issue. This aspect is especially emphasized in a multi-tenant cloud with multiple applications running. The cloud service should guarantee users the bandwidth they need as defined in cloud's service level agreements. This is also true for Big Data clusters with many users and simultaneous jobs.
+
+Azodolmolky et al. consider the complexities and challenges multiple forwarding policies bring. According to them the policies directly impact the configurations of network devices and with vendors having protocols specific for their products complicate the building, maintaining and operating of a Cloud network.
+
+Data centers often have a network topology designed to accomodate the needs of the application and network traffic. This also means, that physically networks are very static and changing the topology to respond e.g. changing traffic patterns or application requirements is a labourious and time-consuming effort requiring manual configuration of switches, routers and other network devices.
+
+Network appliances and servers are tied to physical network. Naturally this means that cloud services are dependent on location. Azodolmolky et al. say, that the way IP addresses are typically determined by VLAN or the subnets and how they are based on physical switch port configuration complicate virtual machine migrations in the network. This handicaps dynamic resource utilization and makes resource allocation inflexible. This challenge is very relevant to Big Data computation as the computational demands in a Bid Data system or a Cloud in general are variable and the scaling and optimized use of computational resources is necessary \cite{Frontiers} in many aspects, such as energy consumption and upkeep costs.
 
 
 Massive Data challenges \cite{Frontiers} \cite{Azodolmolky}
