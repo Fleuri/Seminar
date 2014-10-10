@@ -78,12 +78,12 @@ When it comes combining SDN and Big Data, the research and applications are not 
 
 \section{Software-defined Networking}
 
-Software-defined Networking is a networking paradigm and an architectural design. According to Feamster et al. the major design choices of SDN are the decoupling of the network control plane and data plane and centralisation of control so that a single program monitors and modifies all network elements \cite{Feamster:2013:RS:2559899.2560327}. In essence this adds a previously non-existent abstraction level in-between the physical network and network applications freeing the network programmer from having to concern him or herself with the actual logical implementations of network devices. This along with the Network Functions Virtualization allows for configuring networks and network functions easily with well defined APIs such as OpenFlow \cite{McKeown-CCR2008}. For example with Openflow switches, both physical and virtual, it is possible to use commodity hardware and servers for middlebox functions. Figure ~\ref{fig:architecture} shows the typical SDN controller architecture with OpenFlow enabled switches and the interfaces between the data plane and control plane, the South-bound interfaces, as well as the North-bound interface, usually an API, between the controller and network applications. Virtualization adds to SDN's benefits: Multiple networks can co-exist on the same hardware and to have their topology decoupled from the physical network topology. \cite{Azodolmolky} The physical network resource usage is also enhanced through network resource pooling. 
+Software-defined Networking is a networking paradigm and an architectural design. According to Feamster et al. the major design choices of SDN are the decoupling of the network control plane and data plane and centralisation of control so that a single program monitors and modifies all network elements \cite{Feamster:2013:RS:2559899.2560327}. In essence this adds a previously non-existent abstraction level in-between the physical network and network applications freeing the network programmer from having to concern him or herself with the actual logical implementations of network devices. This along with the Network Functions Virtualization allows for configuring networks and network functions easily with well defined APIs such as OpenFlow \cite{McKeown-CCR2008}. For example with Openflow switches, both physical and virtual, it is possible to use commodity hardware and servers for middlebox functions. Figure ~\ref{fig:architecture} shows the typical SDN controller architecture with OpenFlow enabled switches and the interfaces between the data plane and control plane, the South-bound interfaces, as well as the North-bound interface, usually an API, between the controller and network applications. Virtualization adds to SDN's benefits: Multiple networks can co-exist on the same hardware and to have their topology decoupled from the physical network topology \cite{Azodolmolky}. The physical network resource usage is also enhanced through network resource pooling. 
 
 \begin{figure}[ht!]
 \centering
 \floatstyle{boxed}
-\includegraphics[width=80mm]{"Controller architecture diagram".jpg}
+\includegraphics[width=90mm]{"Controller architecture diagram".jpg}
 \caption{General SDN controller architecture}
 \label{fig:architecture}
 \end{figure} 
@@ -93,7 +93,7 @@ Software-defined Networking is a networking paradigm and an architectural design
 
 \section{Big data challenges}
 
-In their article \textit{Cloud Computing Networking: Challenges and Opportunities for Innovations} \cite{Azodolmolky} Siamak Azodolmolky et al. investigate the known challenges Cloud Computing faces. While the challenges are discussed within a purview of general cloud computing, many of them apply directly or partly to Big Data as well.
+In their article \textit{Cloud Computing Networking: Challenges and Opportunities for Innovations} \cite{Azodolmolky} Siamak Azodolmolky et al. investigate the known challenges Cloud Computing faces. While the challenges are discussed within a purview of general cloud computing, many of them apply directly or partly to Big Data as well. These are some of the challenges that could be addressed with SDN to some degree.
 
 Application performance is always an issue. This aspect is especially emphasized in a multi-tenant cloud with multiple applications running. The cloud service should guarantee users the bandwidth they need as defined in cloud's service level agreements. This is also true for Big Data clusters with many users and simultaneous jobs.
 
@@ -101,14 +101,14 @@ Azodolmolky et al. consider the complexities and challenges multiple forwarding 
 
 Data centers often have a network topology designed to accomodate the needs of the application and network traffic. This also means, that physically networks are very static and changing the topology to respond e.g. changing traffic patterns or application requirements is a labourious and time-consuming effort requiring manual configuration of switches, routers and other network devices.
 
-Network appliances and servers are tied to physical network. Naturally this means that cloud services are dependent on location. Azodolmolky et al. say, that the way IP addresses are typically determined by VLAN or the subnets and how they are based on physical switch port configuration complicate virtual machine migrations in the network. This handicaps dynamic resource utilization and makes resource allocation inflexible. This challenge is very relevant to Big Data computation as the computational demands in a Bid Data system or a Cloud in general are variable and the scaling and optimized use of computational resources is necessary \cite{Frontiers} in many aspects, such as energy consumption and upkeep costs.
-
-
-Massive Data challenges \cite{Frontiers} \cite{Azodolmolky}
-Scaling of resources.
-Optimization of infrastructure.
+Network appliances and servers are tied to physical network. Naturally this means that cloud services are dependent on location. Azodolmolky et al. say, that the way IP addresses are typically determined by VLAN or the subnets and how they are based on physical switch port configuration complicate virtual machine migrations in the network. This handicaps dynamic resource utilization and makes resource allocation inflexible. This challenge is very relevant to Big Data computation as the computational demands in a Bid Data system or a Cloud in general are variable and the scaling and optimized usage of computational resources is necessary \cite{Frontiers} in many aspects, such as energy consumption and upkeep costs.
 
 \section{How can SDN help?}
+
+
+Software-defined Networking and Network function virtualization have much to offer for Big Data and Cloud computing in general. With the abstraction levels SDN offers, construction of suitable networks for Big Data application becomes less challenging and with the aid of virtualization the network functions can be run on commodity hardware, such as ordinary x86 servers. The possibility to not use specialized hardware can be a huge benefit both technically and financially. Specialized hardware is expensive and the configuration possibilities and ways differ from one vendor to another. OpenFlow-enabled switches can be used to run middlebox functions and thus the unified programming and configuration interface allows for easier operation . This would also help in situation in which the physical device fails and it is required to move its functions to another device. In such situation no additional configuration would be required even if the device would differ from the original one. 
+
+
 
 Scheduling. \cite{Scheduling}
 Network optimization \cite{Wang:2012:PYN:2342441.2342462}
