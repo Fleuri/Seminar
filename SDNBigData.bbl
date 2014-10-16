@@ -21,6 +21,13 @@
 \newblock The road to sdn.
 \newblock {\em Queue 11}, 12 (Dec. 2013), 20:20--20:40.
 
+\bibitem{Fischer:2010:ATE:1810479.1810484}
+{\sc Fischer, M.~J., Su, X., and Yin, Y.}
+\newblock Assigning tasks for efficiency in hadoop: Extended abstract.
+\newblock In {\em Proceedings of the Twenty-second Annual ACM Symposium on
+  Parallelism in Algorithms and Architectures\/} (New York, NY, USA, 2010),
+  SPAA '10, ACM, pp.~30--39.
+
 \bibitem{Ghemawat:2003:GFS:1165389.945450}
 {\sc Ghemawat, S., Gobioff, H., and Leung, S.-T.}
 \newblock The google file system.
