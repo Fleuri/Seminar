@@ -63,6 +63,13 @@
   network, feb 2012.
 \newblock US Patent 8,122,128.
 
+\bibitem{sezer2013we}
+{\sc Sezer, S., Scott-Hayward, S., Chouhan, P.-K., Fraser, B., Lake, D.,
+  Finnegan, J., Viljoen, N., Miller, M., and Rao, N.}
+\newblock Are we ready for sdn? implementation challenges for software-defined
+  networks.
+\newblock {\em Communications Magazine, IEEE 51}, 7 (2013).
+
 \bibitem{Hadoop}
 {\sc {The Apache Software Foundation}}.
 \newblock Hadoop.
